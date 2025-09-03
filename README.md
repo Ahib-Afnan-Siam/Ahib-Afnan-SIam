@@ -1,5 +1,9 @@
 # 💫 About Me:
-🔭 I’m currently working on different personal projects.<br>👯 I’m looking to collaborate.<br>🤝 I’m looking for help with different AI and software projects.<br>🌱 I’m currently learning.<br>💬 Ask me about anything.
+🔭 I’m currently working as a Software Engineer at PRAN-RFL Group, building AI-powered assistants and analytics tools.  
+👯 I’m looking to collaborate on open-source, AI, and software development projects.  
+🤝 I’m looking for help with advanced AI/ML model integration and scalable backend systems.  
+🌱 I’m currently learning enterprise RAG pipelines, hybrid LLM routing, and secure backend practices.  
+💬 Ask me about Python, JavaScript, PHP, Oracle RAG pipelines, ChromaDB, FastAPI, Mistral & DeepSeek models.  
 
 
 ## 🌐 Socials:
