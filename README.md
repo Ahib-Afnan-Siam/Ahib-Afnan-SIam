@@ -374,20 +374,31 @@ ahib = {
 
 ---
 
----
-
-## 🐍 Contribution Graph
+## 🐍 Contribution Journey
 
 <div align="center">
 
-<img
-  src="https://raw.githubusercontent.com/Ahib-Afnan-Siam/Ahib-Afnan-Siam/output/github-contribution-grid-snake-dark.svg"
-  alt="GitHub Contribution Snake"
-/>
+<p>
+  Watch the snake eat my contribution graph — one commit at a time.
+</p>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Ahib-Afnan-Siam/Ahib-Afnan-Siam/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Ahib-Afnan-Siam/Ahib-Afnan-Siam/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="GitHub contribution snake animation"
+    src="https://raw.githubusercontent.com/Ahib-Afnan-Siam/Ahib-Afnan-Siam/output/github-contribution-grid-snake.svg"
+    width="100%"
+  />
+</picture>
 
 </div>
-
----
 
 ---
 
