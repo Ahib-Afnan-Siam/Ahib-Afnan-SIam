@@ -374,6 +374,23 @@ ahib = {
 
 ---
 
+---
+
+## 🐍 Contribution Graph
+
+<div align="center">
+
+<img
+  src="https://raw.githubusercontent.com/Ahib-Afnan-Siam/Ahib-Afnan-Siam/output/github-contribution-grid-snake-dark.svg"
+  alt="GitHub Contribution Snake"
+/>
+
+</div>
+
+---
+
+---
+
 ## ✍️ Latest Writing
 
 I write about **AI engineering, machine learning, software systems, and things I learn while building real-world technology.**
