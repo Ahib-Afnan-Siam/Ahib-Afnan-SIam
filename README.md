@@ -181,27 +181,28 @@ Applied computer vision systems involving object detection, facial recognition, 
 ## 🏗️ The Kind of Systems I Build
 
 ```mermaid
-flowchart LR
+flowchart TD
 
-    U["👤 User"] --> API["⚡ FastAPI / Backend"]
+    USER["👤 User / Application"]
+        --> API["⚡ API & Backend Layer"]
 
-    API --> RET["🔎 Retrieval Layer"]
-    API --> ROUTER["🧠 LLM Router"]
+    API --> RET["🔎 Retrieval"]
+    API --> ROUTER["🧠 LLM Routing"]
 
-    RET --> VECTOR[("Vector Search")]
-    RET --> DB[("Enterprise DB")]
+    RET --> VECTOR["Vector Search"]
+    RET --> DATA["Enterprise Data"]
 
-    VECTOR --> CTX["Context Builder"]
-    DB --> CTX
+    VECTOR --> CONTEXT["📚 Context Builder"]
+    DATA --> CONTEXT
 
-    CTX --> LLM["🤖 LLM"]
+    CONTEXT --> LLM["🤖 Language Model"]
     ROUTER --> LLM
 
-    LLM --> EVAL["✅ Validation / Evaluation"]
-    EVAL --> RESP["📊 Structured Response"]
+    LLM --> VALIDATE["✅ Validation & Evaluation"]
+    VALIDATE --> RESULT["📊 Intelligent Response"]
 ```
 
-My typical AI systems combine **retrieval, enterprise data, backend APIs, LLM orchestration, validation, and application-level intelligence** rather than relying on a standalone model.
+My systems typically combine **retrieval, enterprise data, backend APIs, model orchestration, validation, and application-level intelligence** rather than relying on a standalone model.
 
 ---
 
@@ -248,8 +249,6 @@ Frontend              ██████████████░░░░░�
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
----
 
 <details>
 
@@ -314,24 +313,21 @@ ahib = {
 
 ---
 
-## 📌 Featured Public Repository
+## 📌 Featured Open Source
 
-<div align="center">
+### 🧠 Oracle SQL Assistant
 
-<a href="https://github.com/Ahib-Afnan-Siam/oracle-sql-assistant-full">
-  <img
-    src="https://github-readme-stats.vercel.app/api/pin/?username=Ahib-Afnan-Siam&repo=oracle-sql-assistant-full&theme=github_dark&hide_border=true"
-    alt="Oracle SQL Assistant"
-  />
-</a>
+An AI-powered Oracle assistant for natural-language database interaction and intelligent SQL workflows.
 
-</div>
+Built around the idea of making enterprise database interaction more accessible through **retrieval, language models, and backend orchestration**.
 
-<div align="center">
+`Python` · `Oracle` · `RAG` · `LLM` · `FastAPI`
 
-**More projects → [github.com/Ahib-Afnan-Siam](https://github.com/Ahib-Afnan-Siam?tab=repositories)**
+[**Explore Repository →**](https://github.com/Ahib-Afnan-Siam/oracle-sql-assistant-full)
 
-</div>
+<br>
+
+[**View all repositories →**](https://github.com/Ahib-Afnan-Siam?tab=repositories)
 
 ---
 
@@ -340,29 +336,20 @@ ahib = {
 <div align="center">
 
 <img
-  height="170"
+  width="58%"
   src="https://github-readme-stats.vercel.app/api?username=Ahib-Afnan-Siam&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"
   alt="GitHub Stats"
 />
 
-<img
-  height="170"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahib-Afnan-Siam&layout=compact&theme=github_dark&hide_border=true&langs_count=8"
-  alt="Top Languages"
-/>
-
 <br>
 
 <img
+  width="58%"
   src="https://github-readme-streak-stats.herokuapp.com/?user=Ahib-Afnan-Siam&theme=github-dark-blue&hide_border=true"
   alt="GitHub Streak"
 />
 
-</div>
-
-<br>
-
-<div align="center">
+<br><br>
 
 <img
   src="https://github-readme-activity-graph.vercel.app/graph?username=Ahib-Afnan-Siam&theme=github-dark&hide_border=true&area=true"
@@ -415,8 +402,6 @@ I write about **AI engineering, machine learning, software systems, and things I
 
 </div>
 
----
-
 <details>
 
 <summary><b>🧩 Problem Solving & Algorithms</b></summary>
@@ -442,8 +427,6 @@ I've worked through **500+ coding and algorithmic problems**, covering areas suc
 Problem solving isn't the center of my professional identity, but it remains an important part of how I sharpen my engineering thinking.
 
 </details>
-
----
 
 <details>
 
